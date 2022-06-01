@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightgray;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.sub-container {
+  width: 40.5%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+  height: 5vh;
+  padding-top: 5px;
+}
+
+.icon {
+  margin-left: 20px;
+  border: none;
+  border: white;
+  background: #fff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.txt {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid lightgray;
+  width: 40%;
+  background: #fff;
+}
+
+.text-input {
+  text-align: left;
+  width: 40%;
+  margin-left: 17px;
+  height: 5vh;
+  font-size: 18px;
+  font-style: italic;
+  border: none;
+  background: #fff;
+}
+
+.list-item {
+  text-align: center;
+  width: 40%;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background: #fff;
+}
+
+.desc {
+  width: 80%;
+  height: 5vh;
+  border: none;
+  background: #fff;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container h1 {
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.fa-ellipsis-v {
+  margin-top: 15px;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+
+.fa-level-down {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.clear {
+  background: #fff;
+  width: 40%;
+  height: 5vh;
+  text-align: center;
+}
+
+.main-clear {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  padding-top: 5px;
+  font-weight: 100;
+}
+
+.fa-sync {
+  margin-right: 10px;
+  font-weight: 600;
+}
