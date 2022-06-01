@@ -31,7 +31,7 @@ const todoList = () => {
       <div class="main-container">        
       <div class="list-item">
       <input type='checkbox' class="checkbox" id=${todo.index} />
-      <input type='text' class='desc font-normal px-1' value='${todo.description}' disabled/>,
+      <input type='text' class='desc font-normal px-1' value='${todo.description}' disabled/>
       <span class='fa fa-ellipsis-v fa-lg'></span>
       </div>
       </div> 
