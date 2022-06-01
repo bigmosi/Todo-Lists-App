@@ -37,6 +37,6 @@ const todoList = () => {
       </div> 
       `;
   });
-}
+};
 
 todoList();
