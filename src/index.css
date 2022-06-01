@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -19,7 +20,6 @@ li {
   margin-left: 10px;
   border: 1px solid lightgray;
   margin-top: 20px;
-
 }
 
 .sub-container {
@@ -63,10 +63,6 @@ form {
   font-style: italic;
   border: none;
   background: #fff;
-}
-
-.clear {
-  text-align: center;
 }
 
 .list-item {
@@ -114,6 +110,7 @@ form {
   background: #fff;
   width: 40%;
   height: 5vh;
+  text-align: center;
 }
 
 .main-clear {
