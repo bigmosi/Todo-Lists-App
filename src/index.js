@@ -1,25 +1,25 @@
-import "./index.css";
+import './index.css';
 
 const todos = [
   {
-      index: 1,
-      description: 'Buy food stuff',
-      completed: false
+    index: 1,
+    description: 'Buy food stuff',
+    completed: false
   },
   {
-      index: 2,
-      description: 'Complete all microverse activity',
+    index: 2,
+    description: 'Complete all microverse activity',
+    completed: false,
+    },
+    {
+     index: 3,
+     description: 'Watch Tv program',
       completed: false,
     },
     {
-      index: 3,
-      description: 'Watch Tv program',
-      completed: false,
-    },
-    {
-      index: 4,
-      description: 'Eat super',
-      completed: false,
+     index: 4,
+     description: 'Eat super',
+     completed: false,
     }
 ];
 
