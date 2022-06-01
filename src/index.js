@@ -27,7 +27,7 @@ const todoList = () => {
   const list = document.querySelector('.todo-list');
 
   todos.forEach((todo) => {
-      list.innerHTML += `
+    list.innerHTML += `
       <div class="main-container">        
       <div class="list-item">
       <input type='checkbox' class="checkbox" id=${todo.index} />
@@ -36,7 +36,7 @@ const todoList = () => {
       </div>
       </div> 
       `;
-    });
+  });
 }
 
 todoList();
