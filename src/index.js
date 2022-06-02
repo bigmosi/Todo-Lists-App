@@ -1,42 +1,27 @@
+import TaskStore from './taskStore.js';
+import {
+  returnIcon, addContent, clearTodo, addBookHandler, removeBookHandler,
+} from './domElement.js';
 import './index.css';
 
-const todos = [
-  {
-    index: 1,
-    description: 'Buy food stuff',
-    completed: false,
-  },
-  {
-    index: 2,
-    description: 'Complete all microverse activity',
-    completed: false,
-  },
-  {
-    index: 3,
-    description: 'Watch Tv program',
-    completed: false,
-  },
-  {
-    index: 4,
-    description: 'Eat super',
-    completed: false,
-  },
-];
+const taskstore = new TaskStore();
 
-const todoList = () => {
-  const list = document.querySelector('.todo-list');
+window.addEventListener('load', () => {
+  taskstore.printTodoList();
+  addContent.focus();
+});
 
-  todos.forEach((todo) => {
-    list.innerHTML += `
-      <div class="main-container">        
-      <div class="list-item">
-      <input type='checkbox' class="checkbox" id=${todo.index} />
-      <input type='text' class='desc font-normal px-1' value='${todo.description}' disabled/>
-      <span class='fa fa-ellipsis-v fa-lg'></span>
-      </div>
-      </div> 
-      `;
-  });
-};
+returnIcon.addEventListener('click', () => {
+  addBookHandler({ taskstore });
+});
 
-todoList();
+clearTodo.addEventListener('click', () => {
+  removeBookHandler({ taskstore });
+});
+
+addField.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter' && event.target.value !== '') {
+    event.preventDefault();
+    addBookHandler({ taskstore });
+  }
+});
