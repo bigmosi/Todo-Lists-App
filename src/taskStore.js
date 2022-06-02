@@ -1,4 +1,4 @@
-import Helper from './helpers.js';
+import Helper from './myFunction.js';
 
 class TaskStore {
   constructor() {
