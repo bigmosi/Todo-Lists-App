@@ -1,5 +1,6 @@
 import Helper from './myFunction.js';
 
+
 class TaskStore {
   constructor() {
     this.tasks = JSON.parse(localStorage.getItem('taskstore')) || [];
