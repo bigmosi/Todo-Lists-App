@@ -1,6 +1,6 @@
 import TaskStore from './modules/taskStore.js';
 import {
-  returnIcon, addContent, clearTodo, addBookHandler, removeBookHandler, refreshTask,
+  returnIcon, addContent, clearTodo, addBookHandler, removeBookHandler,
 } from './modules/formData.js';
 import './index.css';
 
@@ -25,4 +25,3 @@ addContent.addEventListener('keypress', (event) => {
     addBookHandler({ taskstore });
   }
 });
-
