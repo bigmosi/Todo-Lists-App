@@ -1,7 +1,7 @@
-import TaskStore from './taskStore.js';
+import TaskStore from './modules/taskStore.js';
 import {
   returnIcon, addContent, clearTodo, addBookHandler, removeBookHandler,
-} from './formData.js';
+} from './modules/formData.js';
 import './index.css';
 
 const taskstore = new TaskStore();
