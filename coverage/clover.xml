@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654772055335" clover="3.2.0">
-  <project timestamp="1654772055335" name="All files">
+<coverage generated="1654772252055" clover="3.2.0">
+  <project timestamp="1654772252055" name="All files">
     <metrics statements="83" coveredstatements="40" conditionals="23" coveredconditionals="6" methods="29" coveredmethods="15" elements="135" coveredelements="61" complexity="0" loc="83" ncloc="83" packages="1" files="2" classes="2"/>
     <file name="helperFuncs.js" path="/home/amos/Microverse-2/Todo-Lists-App/src/helperFuncs.js">
       <metrics statements="43" coveredstatements="18" conditionals="2" coveredconditionals="0" methods="16" coveredmethods="9"/>
