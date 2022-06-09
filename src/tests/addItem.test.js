@@ -13,5 +13,4 @@ describe('Todo list addItem tests', () => {
     const list = document.querySelectorAll('.todo-list li');
     expect(list).toHaveLength(1);
   });
-
 });
