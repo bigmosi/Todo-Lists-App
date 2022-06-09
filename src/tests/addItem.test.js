@@ -13,4 +13,14 @@ describe('Todo list addItem tests', () => {
     const list = document.querySelectorAll('.todo-list li');
     expect(list).toHaveLength(1);
   });
+  test('add Item II', () => {
+    taskstore.addTask('play tennis');
+    const list = document.querySelectorAll('.todo-list li');
+    expect(list).toHaveLength(2);
+  });
+  test('add Item III', () => {
+    taskstore.addTask('Watch fally ipupa concert');
+    const list = document.querySelectorAll('.todo-list li');
+    expect(list).toHaveLength(3);
+  });
 });
