@@ -1,58 +1,67 @@
-# to-do-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Todo list
 
-> My Portfolio
--It's project built using HTML and CSS to see how github flow works.
+> This is a simple web app that allows users of the application to add and remove tasks they plan to do during the day.
 
 ## Built With
 
-- CSS
 - HTML
+- CSS
 - JavaScript
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 ## Live Demo
 
-[Ckeckout The live Site here](https://bigmosi.github.io/Todo-Lists-App/dist)
+[Live Demo Link](https://felix45.github.io/todo-list/)
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
--Install operating system that best work for you.
--Install the latest version of node.
-Install your favorite Text Editor
+```
+  node js
+  npm
+
+```
 ### Setup
-- Set-up linters in your local env
-- The npm package manager is going to create a node_modules directory to install all of your dependencies.You shouldn't commit that directory. To avoid that, you can create a .gitignore file
-  and add node_modules to it:
-- you need to initialize npm to create package.json file
-- run npm install --save-dev hint@6.x
-  -add hintrc
-  -run npx hint .
-- .stylelintrc
-- run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-- run npx stylelint "**/*.{css,scss}"
+Clone the repository and change the directory to webpack-boilerplate
+
+``` 
+  $ git clone git@github.com:Felix45/todo-list.git
+
+  $ cd todo-list
+
+```
+
 ### Install
+Install all project dependencies by running the command below
+ 
+``` 
+  $ npm install
+```
+### Usage
+Start the http application server
+``` 
+  $ npm start
+```
+
+### Deployment
+- [Visit Application Homepage](http://localhost:9000)
 
 
-## Authors
+### Authors
 
-👤 **Kinyera Amos**
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Felix Ouma|[@Felix45](https://github.com/Felix45)|[@Felix_Atonoh](https://twitter.com/Felix_Atonoh)|[LinkedIn](https://www.linkedin.com/in/felix-ouma-639766b0/)|
 
-- GitHub: [@bigmosi](https://github.com/bigmosi/)
-- Twitter: [@kinyera_amos](https://twitter.com/kinyera_amos)
-- LinkedIn: [kinyera-amos-026062218](https://linkedin.com/in/kinyera-amos-026062218)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Felix45/todo-list/issues).
 
 ## Show your support
 
@@ -60,13 +69,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to [Microverse](https://bit.ly/MicroverseTN) for giving me this project to work on
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
-
-## Link to URL on browser
--URL:[browser](https://bigmosi.github.io/Portfoli-mobile-view/)
+This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
