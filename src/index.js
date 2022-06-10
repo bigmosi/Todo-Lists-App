@@ -1,14 +1,14 @@
-import TaskStore from './modules/taskStore.js';
+import TaskStore from './taskStore.js';
 import {
-  returnIcon, addContent, clearTodo, addBookHandler, removeBookHandler,
-} from './modules/formData.js';
-import './index.css';
+  returnIcon, addField, clearTodo, addBookHandler, removeBookHandler,
+} from './domElement.js';
+import './style.css';
 
 const taskstore = new TaskStore();
 
 window.addEventListener('load', () => {
   taskstore.printTodoList();
-  addContent.focus();
+  addField.focus();
 });
 
 returnIcon.addEventListener('click', () => {
@@ -19,7 +19,7 @@ clearTodo.addEventListener('click', () => {
   removeBookHandler({ taskstore });
 });
 
-addContent.addEventListener('keypress', (event) => {
+addField.addEventListener('keypress', (event) => {
   if (event.key === 'Enter' && event.target.value !== '') {
     event.preventDefault();
     addBookHandler({ taskstore });

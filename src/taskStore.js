@@ -1,4 +1,4 @@
-import Helper from './myFunction.js';
+import Helper from './helperFuncs.js';
 
 class TaskStore {
   constructor() {
@@ -8,6 +8,7 @@ class TaskStore {
   addTask = (description, completed = false) => {
     this.tasks.push({ description, completed, index: this.getTasks().length + 1 });
     this.populateLocalStorage();
+    this.printTodoList();
   }
 
   removeTask = (clear = false, itemIndex = -1) => {
